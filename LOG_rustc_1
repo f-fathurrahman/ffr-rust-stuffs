@@ -1,0 +1,15 @@
+       Fresh num-traits v0.1.36
+   Compiling rustc-serialize v0.3.22
+     Running `rustc --crate-name rustc_serialize /home/efefer/.cargo/registry/src/github.com-1ecc6299db9ec823/rustc-serialize-0.3.22/src/lib.rs --crate-type lib -g -C metadata=03b62901d97343ea -C extra-filename=-03b62901d97343ea --out-dir /home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps --emit=dep-info,link -L dependency=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps --cap-lints allow`
+       Fresh either v1.0.3
+       Fresh itertools v0.5.9
+       Fresh rawpointer v0.1.0
+       Fresh matrixmultiply v0.1.13
+   Compiling num-complex v0.1.35
+     Running `rustc --crate-name num_complex /home/efefer/.cargo/registry/src/github.com-1ecc6299db9ec823/num-complex-0.1.35/src/lib.rs --crate-type lib -g --cfg feature=\"rustc-serialize\" --cfg feature=\"default\" -C metadata=997460ed3f3b74aa -C extra-filename=-997460ed3f3b74aa --out-dir /home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps --emit=dep-info,link -L dependency=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps --extern rustc_serialize=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps/librustc_serialize-03b62901d97343ea.rlib --extern num_traits=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps/libnum_traits-ba977ae2944b0245.rlib --cap-lints allow`
+   Compiling ndarray v0.7.3
+     Running `rustc --crate-name ndarray /home/efefer/.cargo/registry/src/github.com-1ecc6299db9ec823/ndarray-0.7.3/src/lib.rs --crate-type lib -g -C metadata=0bcd4bbd6f48e02a -C extra-filename=-0bcd4bbd6f48e02a --out-dir /home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps --emit=dep-info,link -L dependency=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps --extern itertools=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps/libitertools-de010d8ef8d6cdcc.rlib --extern num_traits=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps/libnum_traits-ba977ae2944b0245.rlib --extern matrixmultiply=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps/libmatrixmultiply-01a510c993bb17bd.rlib --extern num_complex=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps/libnum_complex-997460ed3f3b74aa.rlib --cap-lints allow`
+   Compiling test_ndarray v0.1.0 (file:///home/efefer/WORKS/RUST/ffr-rust/test_ndarray)
+     Running `rustc --crate-name test_ndarray src/main.rs --crate-type bin -g -C metadata=8e1eceeae860a53d -C extra-filename=-8e1eceeae860a53d --out-dir /home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps --emit=dep-info,link -L dependency=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps --extern num_complex=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps/libnum_complex-997460ed3f3b74aa.rlib --extern ndarray=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps/libndarray-0bcd4bbd6f48e02a.rlib --extern num_traits=/home/efefer/WORKS/RUST/ffr-rust/test_ndarray/target/debug/deps/libnum_traits-ba977ae2944b0245.rlib`
+    Finished debug [unoptimized + debuginfo] target(s) in 17.24 secs
+

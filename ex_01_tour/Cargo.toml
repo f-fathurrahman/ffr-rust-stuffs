@@ -1,0 +1,6 @@
+[package]
+name = "ex_01_tour"
+version = "0.1.0"
+authors = ["Fadjar Fathurrahman <fadjar.fathurrahman@gmail.com>"]
+
+[dependencies]

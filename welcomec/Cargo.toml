@@ -1,9 +1,0 @@
-[package]
-name = "welcomec"
-version = "0.1.0"
-authors = ["Fadjar Fathurrahman <fadjar.fathurrahman@gmail.com>"]
-
-[dependencies]
-
-[[bin]]
-name = "welcome"

@@ -1,0 +1,7 @@
+[package]
+name = "test_ndarray"
+version = "0.1.0"
+authors = ["Fadjar Fathurrahman <fadjar.fathurrahman@gmail.com>"]
+
+[dependencies.ndarray]
+version = "0.11.2"

@@ -1,0 +1,7 @@
+[package]
+name = "test_complex"
+version = "0.1.0"
+authors = ["Fadjar Fathurrahman <fadjar.fathurrahman@gmail.com>"]
+
+[dependencies]
+fftw = "0.3.0"

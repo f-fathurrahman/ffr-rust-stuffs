@@ -61,7 +61,7 @@ fn main() {
     // type annotation is necessary in this case
     let mut dolly: Sheep = Animal::new("Dolly");
 
-    let dolly2: Sheep = Sheep{naked: true, name: "New Dolly"};
+    let mut dolly2: Sheep = Sheep{naked: true, name: "New Dolly"};
 
     dolly.talk();
     dolly.shear();

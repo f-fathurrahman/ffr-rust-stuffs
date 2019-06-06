@@ -1,0 +1,9 @@
+cargo new project_name --bin
+
+cargo build
+
+cargo run
+
+cargo check # does not build the binary
+
+cargo build --release

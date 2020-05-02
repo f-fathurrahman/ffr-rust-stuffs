@@ -5,7 +5,7 @@ extern crate ndarray;
 use ndarray::prelude::*;
 use ndarray::Zip;
 
-fn main() {
+fn test01() {
     let n = 16;
     let mut a = Array::<f32, _>::zeros((n, n));
     let mut b = Array::<f32, _>::from_elem((n, n), 1.);
@@ -49,4 +49,25 @@ fn main() {
         });
     }
     println!("{:8.3?}", a);
+}
+
+fn add_matrix() {
+    let a = arr2(&[[1, 2, 3],
+                   [4, 5, 6]]);
+
+    let b = arr2(&[[6, 5, 4],
+                   [3, 2, 1]]);
+
+    let sum = &a + &b;
+
+    println!("{}", a);
+    println!("+");
+    println!("{}", b);
+    println!("=");
+    println!("{}", sum);
+}
+
+fn main() {
+    //test01();
+    add_matrix();
 }

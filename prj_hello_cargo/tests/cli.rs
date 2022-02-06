@@ -1,8 +1,7 @@
-use std::process::Command;
+use assert_cmd::Command;
 
 #[test]
 fn runs() {
-    let mut cmd = Command::new("prj_hello_cargo");
-    let res = cmd.output();
-    assert!(res.is_ok());
+    let mut cmd = Command::cargo_bin("prj_hello_cargo").unwrap();
+    cmd.assert().success();
 }
